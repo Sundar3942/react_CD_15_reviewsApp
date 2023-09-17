@@ -54,7 +54,7 @@ class ReviewsCarousel extends Component {
       <div className="page">
         <div>
           <button
-            testid="leftArrow"
+            data-testid="leftArrow"
             type="button"
             className="arrow-btn"
             onClick={this.leftButtonHandler}
@@ -72,7 +72,7 @@ class ReviewsCarousel extends Component {
         </div>
         <div>
           <button
-            testid="rightArrow"
+            data-testid="rightArrow"
             type="button"
             className="arrow-btn"
             onClick={this.rightButtonHandler}
